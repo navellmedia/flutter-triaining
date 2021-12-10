@@ -16,6 +16,7 @@ class _TabbarviewPageState extends State<TabbarviewPage> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
+        initialIndex: 1,
         length: 4,
         child: Scaffold(
             appBar: AppBar(
@@ -41,13 +42,16 @@ class _TabbarviewPageState extends State<TabbarviewPage> {
                 ],
               ),
             ),
-            body: TabBarView(
-              children: [
-                TabarHomePage(),
-                TabarNewsPage(),
-                TabarOlahragaPage(),
-                TabbarFoodPage(),
-              ],
+            body: Padding(
+              padding: EdgeInsets.all(8),
+              child: TabBarView(
+                children: [
+                  TabarHomePage(),
+                  TabarNewsPage(),
+                  TabarOlahragaPage(),
+                  TabbarFoodPage(),
+                ],
+              ),
             )));
   }
 }
