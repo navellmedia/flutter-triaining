@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 
 import 'screen/botton_navigation_page.dart';
 import 'screen/container_page.dart';
+import 'screen/drawer_page.dart';
 import 'screen/gridview_page.dart';
 import 'screen/home/HomeScreen.dart';
 import 'screen/image_page.dart';
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
         fontFamily: "Poppins",
         textTheme: TextTheme(bodyText2: TextStyle(fontSize: 12))
       ),
-      home: BottomNavigationPage(),
+      home: DrawerPage(),
       debugShowCheckedModeBanner: false,
     );
   }

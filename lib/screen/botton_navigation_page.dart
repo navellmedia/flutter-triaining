@@ -39,7 +39,7 @@ class _BottomNavigationPageState extends State<BottomNavigationPage> {
         items: [
           BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home"),
           BottomNavigationBarItem(icon: Icon(Icons.description), label: "My Task"),
-          BottomNavigationBarItem(icon: Icon(Icons.sports_baseball), label: "Notification"),
+          BottomNavigationBarItem(icon: Icon(Icons.circle_notifications), label: "Notification"),
           BottomNavigationBarItem(icon: Icon(Icons.support_agent), label: "Profile")
         ],
         currentIndex: _currentPageIndex,
