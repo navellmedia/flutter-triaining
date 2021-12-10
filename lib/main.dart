@@ -10,6 +10,7 @@ import 'screen/listview_menu.dart';
 import 'screen/listview_page.dart';
 import 'screen/row_page.dart';
 import 'screen/stack_page.dart';
+import 'screen/tabbarview_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
         fontFamily: "Poppins",
         textTheme: TextTheme(bodyText2: TextStyle(fontSize: 12))
       ),
-      home: GridviewPage(),
+      home: TabbarviewPage(),
       debugShowCheckedModeBanner: false,
     );
   }
